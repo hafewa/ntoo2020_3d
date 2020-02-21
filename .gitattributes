@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 test.fbx filter=lfs diff=lfs merge=lfs -text
+/NTOO2020/Assets/materials&textures/test.fbx filter=lfs diff=lfs merge=lfs -text
