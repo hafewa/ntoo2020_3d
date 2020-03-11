@@ -6436,7 +6436,7 @@ MonoBehaviour:
   randomHoldDurationMin: 0.1
   randomHoldDurationMax: 0.5
   configReady: 0
-  inspSalsaLinked: 1
+  inspSalsaLinked: 0
   inspStateFoldoutProcessing: 1
   inspStateFoldoutSettings: 0
   inspStateFoldoutEmotes: 1
@@ -6488,8 +6488,8 @@ MonoBehaviour:
   headTargetOffset: {x: 0, y: 0, z: 0}
   headClamp: {x: 45, y: 160, z: 45}
   headFacingCamera: 0
-  headRandom: 0
-  headRandomFov: {x: 5, y: 45, z: 22.5}
+  headRandom: 1
+  headRandomFov: {x: 3, y: 8, z: 22.5}
   headRandFovHalf: {x: 0, y: 0, z: 0}
   headRandTimerRange: {x: 5, y: 10}
   headRandTimer: 0
@@ -6842,7 +6842,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a56f02e9af584914d9c06ce07378bc2a, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -8141,7 +8141,7 @@ MonoBehaviour:
   useEasingOverride: 0
   globalEasing: 4
   configReady: 1
-  inspStateFoldoutProcessing: 0
+  inspStateFoldoutProcessing: 1
   inspStateFoldoutSettings: 0
   inspStateFoldoutVisemes: 0
   inspCollectionDisplayMode: 0
